@@ -3,7 +3,7 @@ Config = Config or {}
 Config.ReloadTime = math.random(4000, 6000)
 
 Config.DurabilityBlockedWeapons = {
-    'weapon_stungun',
+    --'weapon_stungun',
     'weapon_nightstick',
     'weapon_flashlight',
     'weapon_unarmed',
@@ -54,7 +54,7 @@ Config.DurabilityMultiplier = {
     weapon_pistol_mk2            = 0.15,
     weapon_combatpistol          = 0.15,
     weapon_appistol              = 0.15,
-    -- weapon_stungun 				 = 0.15,
+    weapon_stungun 				 = 0.05,
     -- weapon_stungun_mp 				 = 0.15,
     weapon_pistol50              = 0.15,
     weapon_snspistol             = 0.15,
@@ -93,6 +93,9 @@ Config.DurabilityMultiplier = {
     weapon_autoshotgun           = 0.15,
     weapon_pumpshotgun_mk2       = 0.15,
     weapon_combatshotgun         = 0.15,
+    -- Vitto
+    ['weapon_beanbagshotgun'] 		= 0.05,
+    --
 
     -- Assault Rifles
     weapon_assaultrifle          = 0.15,
@@ -188,6 +191,9 @@ WeaponAttachments = {
         weapon_combatpdw = `COMPONENT_COMBATPDW_CLIP_02`,
         weapon_assaultshotgun = `COMPONENT_ASSAULTSHOTGUN_CLIP_02`,
         weapon_heavyshotgun = `COMPONENT_HEAVYSHOTGUN_CLIP_02`,
+        -- Vitto
+        weapon_beanbagshotgun = `COMPONENT_BEANBAGSHOTGUN_CLIP_01`
+        --
         weapon_assaultrifle = `COMPONENT_ASSAULTRIFLE_CLIP_02`,
         weapon_carbinerifle = `COMPONENT_CARBINERIFLE_CLIP_02`,
         weapon_advancedrifle = `COMPONENT_ADVANCEDRIFLE_CLIP_02`,
