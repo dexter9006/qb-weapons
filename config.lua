@@ -94,7 +94,7 @@ Config.DurabilityMultiplier = {
     weapon_pumpshotgun_mk2       = 0.15,
     weapon_combatshotgun         = 0.15,
     -- Vitto
-    ['weapon_beanbagshotgun'] 		= 0.05,
+    ['weapon_beanbagshotgun'] 	 = 0.05,
     --
 
     -- Assault Rifles
@@ -192,7 +192,7 @@ WeaponAttachments = {
         weapon_assaultshotgun = `COMPONENT_ASSAULTSHOTGUN_CLIP_02`,
         weapon_heavyshotgun = `COMPONENT_HEAVYSHOTGUN_CLIP_02`,
         -- Vitto
-        weapon_beanbagshotgun = `COMPONENT_BEANBAGSHOTGUN_CLIP_01`
+        weapon_beanbagshotgun = `COMPONENT_BEANBAGSHOTGUN_CLIP_01`,
         --
         weapon_assaultrifle = `COMPONENT_ASSAULTRIFLE_CLIP_02`,
         weapon_carbinerifle = `COMPONENT_CARBINERIFLE_CLIP_02`,
